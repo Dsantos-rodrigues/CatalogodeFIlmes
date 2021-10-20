@@ -1,0 +1,35 @@
+/*Dar suavidade no scroll do mouse*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*Os links ficaram com pouco destaque, portanto, coloquei cor para realçá-los*/
+a{
+  background-color: #E2F02E;
+  border-radius: 5px;
+}
+/*Gostamos de um visual arredondado no site*/
+*{
+  font-family: Sans-serif;
+}
+
+/*Alterar os títulos de cada seção*/
+h2{
+  width: -webkit-max-content; /*supondo que o usuário use chrome*/
+  background-color: /*#FA7373*/ #E2F02E;
+  border-radius: 8px;
+}
+
+/*Fazer a seção ser uma caixa, propus a adição de bordas ao visual do primeiro exercício*/
+section{
+  background-color: /*#8CFAAC*/#1A8AED;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 7.5px;
+}
+
+/*Deixei o fundo com essa cor para dar destaque a seção*/
+body{
+  background-color:/*#626EFA*/#ED3B32;
+}
